@@ -1,0 +1,85 @@
+@import 'card';
+
+.info {
+  padding-top: 112px;
+  padding-bottom: 228px;
+
+  h2 {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+  }
+
+  &__item {
+    margin-bottom: 144px;
+  }
+
+  &__banner {
+    display: flex;
+    column-gap: 25px;
+    margin-bottom: 49px;
+  }
+
+  &__banner-img {
+    width: 100%;
+    flex: 1 1 auto;
+  }
+
+  &__banner-text {
+    flex: 0 0 454px;
+    max-width: 454px;
+    color: $c-black;
+    font-family: $f-f-roboto;
+
+    h3 {
+      font-family: $f-f-rubik;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 43px;
+      margin-bottom: 13px;
+    }
+
+    h4 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      margin-bottom: 21px;
+    }
+  }
+
+  &__products {
+    display: flex;
+    align-items: stretch;
+    column-gap: 52px;
+    padding: 0 41px;
+
+    .card {
+      flex: 1 1 100%;
+    }
+
+    @media (max-width: 1440px) {
+      padding: 0;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+
+    .button {
+      width: 269px;
+      font-weight: 400;
+      padding: 20px;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+}

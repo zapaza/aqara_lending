@@ -1,0 +1,41 @@
+.voice-helper {
+  width: 100%;
+  height: 100vh;
+  min-height: 840px;
+  background-image: url('../images/voice-helper.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-bottom: 91px;
+
+  .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__content {
+    max-width: 876px;
+    margin: auto auto 0;
+  }
+
+  h2 {
+    color: $c-white;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  p {
+    color: $c-light-gray;
+    font-family: $f-f-roboto;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+  }
+}
