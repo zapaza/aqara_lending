@@ -1,0 +1,57 @@
+.card {
+  background: $c-white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 26px;
+  padding: 40px 47px;
+  display: flex;
+  flex-direction: column;
+  max-width: 378px;
+  font-family: $f-f-roboto;
+  color: #000;
+
+  &__img {
+    width: 200px;
+    height: 200px;
+    flex: 0 0 200px;
+    margin: 0 auto 36px;
+
+
+    picture {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+  }
+
+  &__info-footer {
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+
+  &__title {
+    margin-bottom: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &__price {
+    margin-bottom: 41px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  &__link {
+    width: 181px;
+  }
+}

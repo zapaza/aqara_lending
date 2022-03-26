@@ -1,0 +1,33 @@
+.app {
+  padding: 135px 0 0;
+
+  .wrapper {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 170px;
+    justify-content: space-between;
+  }
+
+  &__content {
+    color: $c-black;
+    max-width: 433px;
+    font-family: $f-f-roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__image {
+    width: 464px;
+    flex: 0 0 464px;
+
+    picture {
+      display: block;
+      width: 100%;
+    }
+  }
+}

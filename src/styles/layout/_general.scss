@@ -1,0 +1,71 @@
+[hidden] {
+  display: none;
+}
+
+body {
+  min-height: 100vh;
+  font-family: $f-f-roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: $c-black;
+  background-color: $b-c-main;
+}
+
+.wrapper {
+  max-width: $m-w-wrapper;
+  padding: $p-wrapper;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: $f-f-rubik;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  color: $c-black;
+}
+
+.button {
+  display: inline-block;
+  background: $g-orange;
+  padding: 15px;
+  text-align: center;
+  border-radius: 7px;
+  font-family: $f-f-rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $c-white;
+  transition: 0.2s ease-in all;
+  will-change: background, box-shadow;
+
+  &:hover {
+    background: $g-orange-hover;
+    box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.outline-button {
+  border: 2px solid $c-white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 16px;
+  color: $c-white;
+  font-family: $f-f-rubik;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  transition: 0.2s ease-in all;
+  will-change: background, box-shadow, color;
+
+  &:hover,
+  &.active {
+    background: $c-white;
+    color: #0f0f0f;
+    box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+}
