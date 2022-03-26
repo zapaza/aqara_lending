@@ -24,7 +24,8 @@
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development gulp",
-    "prod": "cross-env NODE_ENV=production gulp build"
+    "prod": "cross-env NODE_ENV=production gulp build",
+    "deploy": "push-dir --dir=build --branch=gh-pages --cleanup"
   },
   "browserslist": [
     "> 1%",
@@ -72,7 +73,8 @@
     "vinyl-buffer": "^1.0.1",
     "webpack": "^5.42.0",
     "webpack-notifier": "^1.13.0",
-    "webpack-stream": "^6.1.2"
+    "webpack-stream": "^6.1.2",
+    "push-dir": "^0.4.1"
   },
   "dependencies": {
     "choices.js": "^9.0.1",
