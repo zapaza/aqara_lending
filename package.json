@@ -1,5 +1,5 @@
 {
-  "name": "Aqara",
+  "name": "aqara",
   "version": "1.0.0",
   "description": "Frontend development with pleasure",
   "keywords": [
@@ -68,18 +68,19 @@
     "postcss-import": "^14.0.2",
     "postcss-inline-svg": "^5.0.0",
     "postcss-object-fit-images": "^1.1.2",
+    "push-dir": "^0.4.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0",
     "vinyl-buffer": "^1.0.1",
     "webpack": "^5.42.0",
     "webpack-notifier": "^1.13.0",
-    "webpack-stream": "^6.1.2",
-    "push-dir": "^0.4.1"
+    "webpack-stream": "^6.1.2"
   },
   "dependencies": {
     "choices.js": "^9.0.1",
     "fg-loadcss": "^3.1.0",
     "jquery": "^3.6.0",
+    "lottie-web": "^5.9.1",
     "normalize.css": "^8.0.1",
     "object-fit-images": "^3.2.4",
     "supports-webp": "^2.0.1",
@@ -87,4 +88,3 @@
     "swiper": "^6.7.5"
   }
 }
-
