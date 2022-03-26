@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="date=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="format-detection" content="email=no">
+  <meta content="notranslate" name="google">
+
+  <title>My site</title>
+  <meta name="description" content="My awesome site">
+  <meta name="keywords" content="my, awesome, site">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/css/styles.min.css">
+  <noscript>
+    <link rel="stylesheet" href="/css/styles.min.css">
+  </noscript>
+
+  <script>
+    !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+  </script>
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitename.com">
+  <meta property="og:title" content="Open Graph title">
+  <meta property="og:description" content="Open Graph description">
+  <meta property="og:image" content="https://www.sitename.com/images/og-image.jpg">
+</head>
+<body>
+
+  <div class="sitepage">
+    <div class="sitepage-content">
+
+      <main class="main">
+        <div class="wrapper">
+          <div class="main__preview">
+            <div class="main__image">
+              <picture>
+                <source srcset="../images/main-image.webp" type="image/webp">
+                <img src="../images/main-image.png" alt="">
+              </picture>
+            </div>
+            <div class="main__title">
+              <h1 hidden> Жить проще с умным домом Aqara</h1>
+              <div class="main__title-h1">Жить проще</div>
+              <div class="main__title-h2">
+                <div class="main__title-h2-text">с умным домом</div>
+                <div class="main__title-h2-img">
+                  <img src="../images/logo.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__points">
+            <div class="main__points-item">
+              <div class="main__points-img"><img src="../images/icon_shield.svg" alt=""></div>
+              <div class="main__points-text">Защищает от протечки и взлома</div>
+            </div>
+            <div class="main__points-item">
+              <div class="main__points-img"><img src="../images/icon_lightning.svg" alt=""></div>
+              <div class="main__points-text">Экономит электроэнергию</div>
+            </div>
+            <div class="main__points-item">
+              <div class="main__points-img"><img src="../images/icon_bulb.svg" alt=""></div>
+              <div class="main__points-text">Автоматически включает свет и электроприборы</div>
+            </div>
+            <div class="main__points-item">
+              <div class="main__points-img"><img src="../images/icon_droid.svg" alt=""></div>
+              <div class="main__points-text">Работает с iOS и Android</div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <section class="animation">
+        <div class="wrapper">
+          <div class="js-tabs animation__tabs">
+            <div class="animation__tabs-content">
+              <div class="js-tabs-pane show animation__tab">
+                <div class="animation__tabs-text">
+                  <h2>Управляет светом во всём доме</h2>
+                  <p>
+                    Теперь сделать умное освещение
+                    в доме действительно легко.
+                    Просто замените обычные выключатели на выключатели Aqara и управляйте освещением удалённо через приложение Aqara Home
+                    или при помощи автоматических сценариев.
+                  </p>
+                </div>
+                <div class="animation__tabs-image">
+                  <div class="animation__tabs-inner-image">
+                    <img src="../images/Animation-1.gif" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="js-tabs-pane animation__tab">
+                <div class="animation__tabs-text">
+                  <h2>Поддерживает комфортную температуру</h2>
+                  <p>
+                    Aqara автоматически включит кондиционер и обогреватель. Вам нужно
+                    только установить желаемую температуру в приложении.
+                  </p>
+                  <p>
+                    Устройства легко установить: датчик температуры клеится на стикер, умная розетка вставляется в обычную, а Hub M2 подключается к сети через провод Micro USB.
+                  </p>
+                </div>
+                <div class="animation__tabs-image"></div>
+              </div>
+              <div class="js-tabs-pane animation__tab">
+                <div class="animation__tabs-text">
+                  <h2>Предупредит об опасности</h2>
+                  <p>
+                    Датчики Aqara предупредят о протечке, незаконном проникновении и вскрытии ящика
+                    с ценными бумагами. Пришлёт push-уведомление на телефон и включит сигнализацию.
+                  </p>
+                  <p>
+                    Датчики можно прикрепить на стикер или положить на поверхность.
+                  </p>
+                </div>
+                <div class="animation__tabs-image"></div>
+              </div>
+            </div>
+            <div class="animation__tabs-buttons">
+              <button class="js-tabs-button active outline-button">Освещение</button>
+              <button class="js-tabs-button outline-button">Климат</button>
+              <button class="js-tabs-button outline-button">Безопасность</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="working">
+        <div class="wrapper">
+          <h2 hidden> Как это работает</h2>
+
+          <div class="working__img">
+            <picture>
+              <source srcset="../images/image-working.webp" type="image/webp">
+              <img src="../images/image-working.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="app">
+        <div class="wrapper">
+          <div class="app__content">
+            <h2>Умный дом в одном приложении</h2>
+            <p>
+              Устройства подключаются и настраиваются в приложении
+              Aqara home для Android и iOS. Создавайте автоматизации,
+              отслеживайте электропотребление,
+              узнавайте об изменениях температуры, смотрите прямую
+              трансляцию с камеры и многое другое.
+            </p>
+          </div>
+          <div class="app__image">
+            <picture>
+              <source srcset="../images/phone.png" type="image/webp">
+              <img src="../images/phone.png" alt="">
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="voice-helper">
+        <div class="wrapper">
+          <div class="voice-helper__content">
+            <h2>Управляйте голосом</h2>
+            <p>
+              Aqara работает с популярными голосовыми помощниками Алиса от Яндекс,
+              Siri от Apple и Маруся от Mail.ru Group. Попросите их включить свет,
+              кондиционер, открыть шторы или сообщить влажность в квартире
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="wrapper">
+          <h2>Умные устройства <br> для любых задач</h2>
+
+          <div class="info__item">
+            <div class="info__banner">
+              <div class="info__banner-img">
+                <picture>
+                  <source srcset="../images/info-1.webp" type="image/webp">
+                  <img src="../images/info-1.jpg" alt="">
+                </picture>
+              </div>
+              <div class="info__banner-text">
+                <h3>Центр умного дома</h3>
+
+                <p>Центр умного дома координирует работу всех устройств Aqara. В линейке Aqara
+                  существует 3 разных центра умного дома, которые отличаются дополнительным функционалом:</p>
+
+                <h4>Aqara Hub M1S</h4>
+
+                <p>Обладает самым мощным встроенным динамиком, который можно использовать в качестве дверного звонка или сирены.</p>
+
+                <h4>Aqara Camera Hub </h4>
+
+                <p>Современная камера высокого разрешения с возможностью ночной съёмки.</p>
+
+                <h4>Aqara Hub M2</h4>
+
+                <p>Управляет бытовой техникой через встроенный инфракрасный пульт с радиусом действия 360°.</p>
+
+              </div>
+            </div>
+
+            <div class="info__products">
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/home-1.webp" type="image/webp">
+                    <img src="../images/home-1.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">IP-камера Aqara Camera Hub G2H [в помещении, потолочная, 1920x1080, CMOS, 2
+                    .1 Мп, H.264, Wi-Fi, ночная съемка, датчик движения, ИК подсветка]</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">5 999 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/home-2.webp" type="image/webp">
+                    <img src="../images/home-2.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Центр управления умным домом Aqara Hub HM1S-G01 Wi-Fi+Zigbee, белый</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">3 699 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/home-3.webp" type="image/webp">
+                    <img src="../images/home-3.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Центр управления умным домом Aqara Hub M2 (HM2-G01) [Wi-Fi+Zigbee] Черный </div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">4 199 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="info__item">
+            <div class="info__banner">
+              <div class="info__banner-img">
+                <picture>
+                  <source srcset="../images/info-1.webp" type="image/webp">
+                  <img src="../images/info-1.jpg" alt="">
+                </picture>
+              </div>
+              <div class="info__banner-text">
+                <h3>Устройства для управления светом</h3>
+
+                <p>Теперь сделать всё освещение в доме умным действительно легко. Просто замените обычные выключатели на выключатели Aqara и управляйте освещением удалённо через приложение Aqara Home или при помощи автоматических сценариев.</p>
+
+                <p>Беспроводные выключатели удаленно управляют светом и бытовыми приборами. Их можно положить на горизонтальную поверхность или наклеить на стену с помощью стикера из комплекта.</p>
+
+                <p>Умные реле помогут превратить ваш обычный выключатель в умный</p>
+
+              </div>
+            </div>
+
+            <div class="info__products">
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/light-1.webp" type="image/webp">
+                    <img src="../images/light-1.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Выключатель Aqara H1 EU WS-EUK04 [2405 МГц, Zigbee]</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">3 999 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/light-2.webp" type="image/webp">
+                    <img src="../images/light-2.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Реле Aqara 2 way relay module LLKZMK11LM [со смартфона, 2.5 кВт, 100 - 250 В, ZigBee]</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">2 499 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/light-3.webp" type="image/webp">
+                    <img src="../images/light-3.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Выключатель Aqara WRS-R02 [3 В, Zigbee]</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">2 099 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="info__item">
+            <div class="info__banner">
+              <div class="info__banner-img">
+                <picture>
+                  <source srcset="../images/info-1.webp" type="image/webp">
+                  <img src="../images/info-1.jpg" alt="">
+                </picture>
+              </div>
+              <div class="info__banner-text">
+                <h3>Датчики</h3>
+
+                <p>Датчики Aqara помогают сделать Ваш дом понастоящему умным. Датчики могут
+                  зафиксировать: протечку воды, температуру, открытие дверей, движение в комнате, разбитие окна. Настройте автоматические сценарии основанные на показаниях датчиков. Например, включайте обогреватель если в комнате температура снизилась или управляйте освещением при обнаружении движения.Датчики крепятся на любую поверхность при помощи специального стикера. Срок автономной работы датчика без смены батареи - до 2х лет.</p>
+
+              </div>
+            </div>
+
+            <div class="info__products">
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/sensor-1.webp" type="image/webp">
+                    <img src="../images/sensor-1.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Датчик температуры и влажности AQARA TVOC AAQS-S01</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">4 499 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/sensor-2.webp" type="image/webp">
+                    <img src="../images/sensor-2.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Датчик протечки AQARA SJCGQ11LM [беспроводной, для сигнализаций Aqara Hub, питание - 3 В]</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">1 750 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/sensor-3.webp" type="image/webp">
+                    <img src="../images/sensor-3.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Датчик движения AQARA RTCGQ11LM [беспроводной, для сигнализаций Aqara Hub, питание - 3 В]</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">1 499 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="info__item">
+            <div class="info__banner">
+              <div class="info__banner-img">
+                <picture>
+                  <source srcset="../images/info-1.webp" type="image/webp">
+                  <img src="../images/info-1.jpg" alt="">
+                </picture>
+              </div>
+              <div class="info__banner-text">
+                <h3>Умные шторы</h3>
+
+                <p>Умные раздвижные шторы откроются в заданное время, что делает пробуждение более легким. А также закроются, когда выключится свет.</p>
+
+                <p>Для открытия или закрытия штор вручную достаточно слегка потянуть штору в сторону, и мотор сам откроет или закроет её.</p>
+
+                <p>Умные рулонные шторы помогут полностью или частично заблокировать попадание солнечного света в комнату.</p>
+
+              </div>
+            </div>
+
+            <div class="info__products">
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/curtains-1.webp" type="image/webp">
+                    <img src="../images/curtains-1.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Мотор для раздвижных штор Aqara Curtain motor ZNCLDJ11LM белый [управление со смартфона, радиус 10 м, 110-240 В]</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">10 699 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/curtains-2.webp" type="image/webp">
+                    <img src="../images/curtains-2.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Модуль управления шторами Aqara ТК1833 белый</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">6 999 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__img">
+                  <picture>
+                    <source srcset="../images/curtains-3.webp" type="image/webp">
+                    <img src="../images/curtains-3.png" alt="">
+                  </picture>
+                </div>
+                <div class="card__info">
+                  <div class="card__title">Мотор для рулонных штор Aqara Roller Shade Driver E1 RSD-M01 белый [управление со смартфона, голосовое управление, аккумулятор]</div>
+
+                  <div class="card__info-footer">
+                    <div class="card__price">5 999 ₽</div>
+
+                    <a href="ыаываыва" class="card__link button" target="_blank">Купить</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="info__button">
+            <a href="" class="button">Каталог Aqara</a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="/js/main.min.js"></script>
+  <script src="/js/vendor.min.js"></script>
+
+</body>
+</html>
