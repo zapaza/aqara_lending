@@ -22,9 +22,9 @@
 
   {% include "./favicons.html" %}
 
-  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/css/styles.css">
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./css/styles.css">
   <noscript>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
   </noscript>
 
   {# https://github.com/filamentgroup/loadCSS #}
@@ -52,8 +52,8 @@
   </div>
 </div>
 
-<script src="/js/main.js"></script>
-<script src="/js/vendor.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/vendor.js"></script>
 
 {% block scripts %}{% endblock %}
 </body>
