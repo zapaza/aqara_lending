@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   max-width: 378px;
+  min-width: 240px;
   font-family: $f-f-roboto;
   color: #000;
 
@@ -52,5 +53,10 @@
 
   &__link {
     width: 181px;
+  }
+
+  @media (max-width: 1124px) {
+    padding: 16px 24px;
+    border-radius: 16px;
   }
 }

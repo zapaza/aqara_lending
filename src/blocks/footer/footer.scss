@@ -1,0 +1,11 @@
+.footer {
+  background-color: $c-black;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 1.4;
+  padding: 16px 0;
+
+  a {
+    color: $c-light-blue;
+  }
+}

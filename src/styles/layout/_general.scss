@@ -16,6 +16,10 @@ body {
   max-width: $m-w-wrapper;
   padding: $p-wrapper;
   margin: 0 auto;
+
+  @media (max-width: 1440px) {
+    padding: 0 16px;
+  }
 }
 
 h2 {
@@ -67,5 +71,11 @@ h2 {
     color: #0f0f0f;
     box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+  }
+
+  @media (max-width: 1124px) {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
   }
 }

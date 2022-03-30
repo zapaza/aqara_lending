@@ -28,6 +28,61 @@
     picture {
       display: block;
       width: 100%;
+
+      img {
+        display: block;
+      }
+    }
+  }
+
+  @media (max-width: 1280px) {
+    padding-top: 80px;
+
+    .wrapper {
+      padding: 0 16px;
+    }
+
+    &__content {
+      font-size: 20px;
+      line-height: 28px;
+
+      h2 {
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+
+    &__image {
+      max-width: 100%;
+      width: 360px;
+      flex: 0 0 auto;
+    }
+  }
+
+  @media (max-width: 890px) {
+    padding: 32px 0 0;
+
+    .wrapper {
+      padding-top: 32px;
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 64px;
+      min-height: 330px;
+    }
+
+    &__content {
+      width: 100%;
+      max-width: none;
+      position: relative;
+      z-index: 2;
+    }
+
+    &__image {
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      opacity: 0.3;
+      width: 280px;
     }
   }
 }
