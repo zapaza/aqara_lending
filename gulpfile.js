@@ -179,7 +179,6 @@ function templates() {
     }))
     .pipe(prettyhtml(prettyOption))
     .pipe(gulpIf(isProd, replace('.css', '.min.css')))
-    .pipe(gulpIf(isProd, replace('.js', '.min.js')))
     .pipe(dest(config.templates.dest));
 }
 exports.templates = templates;
@@ -190,9 +189,6 @@ function scripts() {
   return src(config.scripts.src)
     .pipe(plumber())
     .pipe(gulpWebpack(require('./webpack.config'), webpack))
-    .pipe(gulpIf(isProd, rename({
-      suffix: '.min'
-    })))
     .pipe(dest(config.scripts.dest));
 }
 exports.scripts = scripts;
