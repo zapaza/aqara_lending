@@ -72,3 +72,11 @@ let animation2 = lottieWeb.loadAnimation({
   autoplay: true,
 });
 
+let animation3 = lottieWeb.loadAnimation({
+  container:   document.getElementById('container3'),
+  path: document.getElementById('container3').dataset.animation,
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+});
+
