@@ -97,15 +97,15 @@ function scss() {
       compatibility: 'ie10', level: {
         1: {
           specialComments: 0,
-          removeEmpty: true,
-          removeWhitespace: true
+          removeEmpty: false,
+          removeWhitespace: false
         },
         2: {
-          mergeMedia: true,
-          removeEmpty: true,
+          mergeMedia: false,
+          removeEmpty: false,
           removeDuplicateFontRules: true,
-          removeDuplicateMediaBlocks: true,
-          removeDuplicateRules: true,
+          removeDuplicateMediaBlocks: false,
+          removeDuplicateRules: false,
           removeUnusedAtRules: false
         }
       }
